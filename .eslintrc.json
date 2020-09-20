@@ -1,6 +1,7 @@
 {
     "env": {
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "airbnb-base",
@@ -35,7 +36,10 @@
           "@typescript-eslint/no-unused-vars": ["error", {
               "argsIgnorePattern": "_"
           }],
-          "no-console":"off"
+          "no-console":"off",
+          "no-useless-constructor": "off",
+          "@typescript-eslint/import/order": "off"
+
     },
     "settings": {
         "import/resolver": {
