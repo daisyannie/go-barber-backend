@@ -52,8 +52,6 @@ class UpdateProfileService {
         }
 
         if (password && old_password) {
-            console.log('oi');
-
             const checkOldPassword = await this.hashProvider.compareHash(
                 old_password,
                 user.password,
