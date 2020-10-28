@@ -5,3 +5,4 @@ tmp/*
 
 ormconfig.json
 dist
+coverage
