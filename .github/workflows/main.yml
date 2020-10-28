@@ -32,5 +32,5 @@ jobs:
           password: ${{ secrets.SSH_PASS }}
           port: ${{ secrets.SSH_PORT }}
           source: "."
-          target: "~/home/deploy/app/go-barber-backend"
+          target: "/home/deploy/app/go-barber-backend"
         
